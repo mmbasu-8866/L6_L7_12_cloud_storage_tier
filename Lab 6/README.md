@@ -6,6 +6,12 @@ Lab 6: Code and Branch Coverage
 
 A small Python module that computes tenant storage and network egress costs across hot, cool, and archive storage tiers, and monitors distributed cluster nodes for replication latency spikes.
 
+## Clone
+
+```bash
+git clone https://github.com/mmbasu-8866/L6_L7_12_cloud_storage_tier.git
+```
+
 ## Files
 
 | File | Description |
@@ -16,3 +22,5 @@ A small Python module that computes tenant storage and network egress costs acro
 Keep all your Lab 6 work in this `LAB6` folder. Lab 7 will be added to this repo later.
 
 Refer to the lab handout for instructions.
+
+Coverage goal: the test suite in `test_cloud_storage.py` exercises the main success paths, error handling, invalid inputs, and alert conditions so the module remains above the required 90% line and branch coverage thresholds.
